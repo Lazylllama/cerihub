@@ -1,7 +1,7 @@
 repeat
     wait()
   until game:IsLoaded()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/universal.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/main/universal"))()
   Instance.new("BlurEffect").Parent = game.Lighting
   Instance.new("BlurEffect").Size = 0
   if syn and syn.protect_gui then
@@ -36,28 +36,4 @@ repeat
   if Instance.new("BlurEffect") and syn then
   end
   if game.PlaceId == 142823291 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/ZEN-SMEX-Part-Two/main/Adopt-me"))()
-  end
-  game.StarterGui:SetCore("SendNotification", {
-    Title = "Warning",
-    Text = "RightShift to toggle"
-  })
-  game.StarterGui:SetCore("SendNotification", {
-    Title = "Credits",
-    Text = "Lazyllama for BtrScript"
-  })
-  wait(5)
-  Instance.new("BindableFunction").OnInvoke = function(_ARG_0_)
-    if _ARG_0_ == "Yes" then
-      _UPVALUE0_()
-      _UPVALUE1_("Name and Tag Copied")
-    end
-  end
-  game:GetService("StarterGui"):SetCore("SendNotification", {
-    Title = "Lazyllama's Discord?",
-    Text = "Copy to clipboard?",
-    Duration = 5,
-    Callback = Instance.new("BindableFunction"),
-    Button1 = "Yes",
-    Button2 = "No"
-  })
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/main/mm2"))()
