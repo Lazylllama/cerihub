@@ -1,7 +1,7 @@
 repeat
     wait()
   until game:IsLoaded()
-  loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/main/universal"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/main/universal.lua"))()
   Instance.new("BlurEffect").Parent = game.Lighting
   Instance.new("BlurEffect").Size = 0
   if syn and syn.protect_gui then
@@ -36,4 +36,8 @@ repeat
   if Instance.new("BlurEffect") and syn then
   end
   if game.PlaceId == 142823291 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/main/mm2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/cerihub/main/mm2.lua"))()
+	Instance.new("BlurEffect").Size = 0 - _FORV_7_
+  else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Lazylllama/ZEN-SMEX-Part-3/main/War"))()
+  end
